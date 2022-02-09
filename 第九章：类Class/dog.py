@@ -18,8 +18,8 @@ class Dog:
 
 
 my_dog = Dog('fugui', 2)
-print(my_dog.sit())
-print(my_dog.roll())
+my_dog.sit()
+my_dog.roll()
 print(my_dog.age)
 print(f"my dog`s name is {my_dog.name},and it`s age is {my_dog.age}")
 
