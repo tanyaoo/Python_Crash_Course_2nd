@@ -15,7 +15,3 @@ class User:
         name = self.first_name + self.last_name
         print(f"Hello,{name} ！！")
 
-
-user_1 = User("tan", "yao", 30)
-user_1.describe_user()
-user_1.greet_user()
