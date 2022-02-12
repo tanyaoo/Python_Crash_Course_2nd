@@ -11,8 +11,6 @@ while True:
         get_number.append(number)
     quality += 1
     if get_number == prize_number:
-        print("恭喜你，中大奖了！！！")
+        print(f"恭喜你，中大奖了！！！本次共摇奖{quality}次")
         break
-    else:
-        print(quality)
 
