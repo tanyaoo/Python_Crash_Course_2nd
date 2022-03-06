@@ -18,5 +18,6 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('learning_logs.urls'))
+    path('users/', include('users.urls')),  # 应用程序users的URL
+    path('', include('learning_logs.urls')),  # 应用程序learning_logs的URL
 ]
